@@ -48,11 +48,11 @@
 
         Colemak {
             bindings = <
-&kp ESC   &trans  &trans  &trans  &trans  &trans  &trans                                                        &trans  &trans  &trans    &trans      &trans   &trans  &trans
-&trans    &kp Q   &kp W   &kp F   &kp P   &kp G   &trans                                                        &trans  &kp J   &kp L     &kp U       &kp Y    &trans  &trans
-&kp BSPC  &kp A   &kp R   &kp S   &kp T   &kp D   &trans     &kp LEFT_WIN  &kp HOME            &kp END  &trans  &trans  &kp H   &kp N     &kp E       &kp I    &kp O   &trans
-&trans    &kp Z   &kp X   &kp C   &kp V   &kp B                            &kp UP_ARROW        &trans                   &kp K   &kp M     &kp COMMA   &kp DOT  &trans  &trans
-&trans    &trans  &trans  &trans  &trans          &kp LCTRL  &kp LALT      &kp DOWN_ARROW      &trans   &trans  &trans          &kp RALT  &kp DELETE  &trans   &trans  &trans
+&kp ESC   &trans  &trans  &trans  &trans  &trans  &trans                                                         &trans  &trans  &trans    &trans      &trans   &trans         &trans
+&trans    &kp Q   &kp W   &kp F   &kp P   &kp G   &trans                                                         &trans  &kp J   &kp L     &kp U       &kp Y    &kp SEMICOLON  &trans
+&kp BSPC  &kp A   &kp R   &kp S   &kp T   &kp D   &trans     &kp LEFT_WIN  &kp HOME            &kp END  &kp ESC  &trans  &kp H   &kp N     &kp E       &kp I    &kp O          &trans
+&trans    &kp Z   &kp X   &kp C   &kp V   &kp B                            &kp UP_ARROW        &trans                    &kp K   &kp M     &kp COMMA   &kp DOT  &trans         &trans
+&trans    &trans  &trans  &trans  &trans          &kp LCTRL  &kp LALT      &kp DOWN_ARROW      &trans   &trans   &trans          &kp RALT  &kp DELETE  &trans   &trans         &trans
             >;
         };
 
